@@ -1,12 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Gill Sans", sans-serif, monospace; 
-  background: linear-gradient(to left,rgb(130, 154, 241),rgb(200, 151, 233), rgb(148, 98, 182));
+  font-family: "Gill Sans", sans-serif, monospace;
+  background: linear-gradient(
+    to right,
+    rgb(130, 154, 241),
+    rgb(148, 98, 182),
+    rgb(235, 103, 180),
+    rgb(230, 184, 115)
+  );
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
