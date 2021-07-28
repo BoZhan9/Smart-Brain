@@ -12,34 +12,14 @@ import Particles from "react-particles-js";
 const particlesOptions = {
   particles: {
     number: {
-      value: 100,
-      density: {
-        enable: false,
+      value: 130,
+      desity: {
+        enable: true,
+        value_area: 800,
       },
     },
     size: {
-      value: 10,
-      random: true,
-    },
-    move: {
-      direction: "bottom",
-      out_mode: "out",
-    },
-    line_linked: {
-      enable: false,
-    },
-  },
-  interactivity: {
-    events: {
-      onclick: {
-        enable: true,
-        mode: "remove",
-      },
-    },
-    modes: {
-      remove: {
-        particles_nb: 10,
-      },
+      value: 5,
     },
   },
 };
