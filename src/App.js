@@ -7,22 +7,7 @@ import Rank from "./components/Rank/Rank";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
 import Signin from "./components/Signin/Signin";
 import Register from "./components/Register/Register";
-import Particles from "react-particles-js";
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 130,
-      desity: {
-        enable: true,
-        value_area: 800,
-      },
-    },
-    size: {
-      value: 5,
-    },
-  },
-};
+// import Particles from "react-particles-js";
 
 const initialState = {
   input: "",
@@ -123,7 +108,6 @@ class App extends Component {
     const { isSignedIn, imageUrl, route, box } = this.state;
     return (
       <div className="App">
-        <Particles className="particles" params={particlesOptions} />
         <Navigation
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}
